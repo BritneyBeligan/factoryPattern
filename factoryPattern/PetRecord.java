@@ -28,4 +28,14 @@ public class PetRecord {
     public void setPet(Pet pet) {
         this.pet = pet;
     }
+
+     //to set for the cat
+    public int setNoOfLives(int i) {
+        return 9;
+    }
+
+    //to set for the dog
+    public String setBreed(String setBreed) {
+        return "Dog Breed: German Shepperd";
+    }
 }
