@@ -1,6 +1,12 @@
 package factoryPattern;
 
 public interface Pet {
-    public String makeSound();
-    public String  play();
+    public String makeSound()
+    {
+        return null;
+    }
+    public String  play()
+    {
+        return null;
+    }
 }
