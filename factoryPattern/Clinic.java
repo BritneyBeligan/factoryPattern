@@ -21,12 +21,21 @@ public class Clinic {
                 petFile.setPetName("Bantay");
                 petFile.setPet(pet);
                 ((Dog) pet).setBreed("German Shepperd");
+                // to print the breed of the dog
+                System.out.println(petFile.setBreed("Dog Breed: German Shepperd"));
                 break;
             case 2: pet = new Cat();
                 petFile.setPetId("C01");
                 petFile.setPetName("Muning");
                 petFile.setPet(pet);
                 ((Cat) pet).setNoOfLives(9);
+                //to print the lives of the Cat
+                System.out.println("Cat Lives: " + petFile.setNoOfLives(9));
+                break;
+                
+                 //exit
+            case 3: pet = new Pet();
+            System.out.println("Exit");
         }
 
         System.out.println("Pet id is " + petFile.getPetId());
