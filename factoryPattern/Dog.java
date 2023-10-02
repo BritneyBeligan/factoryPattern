@@ -1,6 +1,6 @@
 package factoryPattern;
 
-public class Dog implements Pet {
+public class Dog extends Pet {
     private String breed;
 
     public String getBreed() {
