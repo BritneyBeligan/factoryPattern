@@ -1,6 +1,6 @@
 package factoryPattern;
 
-public class Cat implements Pet {
+public class Cat extends Pet {
     private Integer noOfLives;
 
     public Integer getNoOfLives() {
